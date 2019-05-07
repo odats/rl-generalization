@@ -27,6 +27,7 @@ edit
 https://github.com/openai/baselines/blob/master/baselines/deepq/deepq.py
 
 from baselines.common.atari_wrappers import make_atari
+
 from baselines.common.atari_wrappers import LazyFrames
 
 new_obs = add_noise_frames(new_obs, 0.005, 0.005)
