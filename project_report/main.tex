@@ -80,7 +80,7 @@
 
 \Large \emph{Authors:}\\
 Oleg  \textsc{Dats}\\
-Dmitri \textsc{Glusсo}\\ % Your name
+Dmitri \textsc{Glusco}\\ % Your name
 
 %----------------------------------------------------------------------------------------
 %	DATE SECTION
@@ -103,7 +103,7 @@ In this project \cite{Project}, we analyze the ability of the Reinforcement Lear
 
 Research from the "Assessing Generalization in Deep Reinforcement Learning" paper \cite{GeneralizationPaper} was used as a base for this project.
 
-First, the Q-learning \cite{QLearningExplanation} was implemented and applied to FrozenLake environment from OpenAI Gym \cite{OpenAIGym} to learn and experiment with RL approaches. Then Deep Q-Network (DQN) \cite{DQNMedium} from OpenAI Baselines GitHub \cite{OpenAIBaselines} was used to make experiments on the CartPole environments of 3 types: Default (Deterministic), Random and Extreme. CartPole environment was used from Sunblaze environments GitHub \cite{Sunblaze}. Finally, DQN was used to inspect generalization abilities on Pong environment from OpenAI Baselines Atari Wrappers. Noise and pepper were manually added to the environment to simulate Random and Extreme Environments. DQN was learned on pixel features from the image.
+First, the Q-learning \cite{QLearningExplanation} was implemented and applied to FrozenLake environment from OpenAI Gym \cite{OpenAIGym} to learn and experiment with RL approaches. Then Deep Q-Network (DQN) \cite{DQNMedium} from OpenAI Baselines GitHub \cite{OpenAIBaselines} was used to make experiments on the CartPole environments of 3 types: Default (Deterministic), Random and Extreme. CartPole environment was used from Sunblaze environments GitHub \cite{Sunblaze}. Finally, DQN was used to inspect generalization abilities on Pong environment from OpenAI Baselines Atari Wrappers. Noise and pepper were manually added to the environment to simulate Random Environment. DQN was learned on pixel features from the image.
 
 Experiments showed that learning on the Random type of environment increases the learning time, but also increases the performance on Random and Extreme environments improving the ability to generalize.
 \end{abstract}
@@ -196,7 +196,7 @@ The main reason for the overfitting is that the model is too complex for the dat
 
 In the terms of the RL agent, if the agent overfits that means that he cannot perform on the states that he did not see during training. Usually, agents are trained on the same environments on which they are applied further, it means that they train on the test set. And if the environment will change or if we want to use the agent's knowledge on a similar environment (with some differences) then usually the agent will fail. A good example is the maze environment: agent can learn how to go through the maze to the finish, but when the maze will change then the agent will fail. 
 
-This is a big problem for AGI creation, as compared to the human, a human can easily apply experience received from the one task one many other different tasks because a human can generalize. He can understand the main patterns that are important for the specific setup and then reuse this pattern in similar situations with some differences. That is why this project is focused on analyzing the ability of the agent to generalize.
+This is a big problem for AGI creation, as compared to the human, a human can easily apply experience received from the one task to many other different tasks because a human can generalize. He can understand the main patterns that are important for the specific setup and then reuse this pattern in similar situations with some differences. That is why this project is focused on analyzing the ability of the agent to generalize.
 
 
 \section{Related Work}
