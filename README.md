@@ -1,4 +1,22 @@
-# rl-generalization
+# Agent adaptation to a changing environment
+
+Machine Learning Project
+
+## GitHub repository structure
+
+`Project Final Report` - final project report
+
+`models` - folder with trained agents on AWS instance in Pong environment
+
+`DQN_for_Sunblaze_CartPole_(DRE),_openai_baseline` - ipython notebook file with agent in Sunblaze environment
+
+`Pong_game_play` - ipython notebook file with agent in Pong environment (uses trained agents)
+
+`Q-learning FrozenLake` - ipython notebook file with agent in FrozenLake environment
+
+`Project Progress Report` - midterm project report
+
+## Prerequisites and References
 
 ____________________________________________________________
 pip install --upgrade pip
