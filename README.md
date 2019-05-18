@@ -1,6 +1,7 @@
 # Agent adaptation to a changing environment
 
 Machine Learning Project
+____________________________________________________________
 
 ## GitHub repository structure
 
