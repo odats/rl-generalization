@@ -8,6 +8,8 @@ Machine Learning Project
 
 `models` - folder with trained agents on AWS instance in Pong environment
 
+`project_report` - folder with tex file and references
+
 `DQN_for_Sunblaze_CartPole_(DRE),_openai_baseline` - ipython notebook file with agent in CartPole environment
 
 `Pong_game_play` - ipython notebook file with agent in Pong environment (uses trained agents)
