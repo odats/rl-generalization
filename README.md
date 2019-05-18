@@ -1,7 +1,6 @@
 # Agent adaptation to a changing environment
 
 Machine Learning Project
-____________________________________________________________
 
 ## GitHub repository structure
 
@@ -9,7 +8,7 @@ ____________________________________________________________
 
 `models` - folder with trained agents on AWS instance in Pong environment
 
-`DQN_for_Sunblaze_CartPole_(DRE),_openai_baseline` - ipython notebook file with agent in Sunblaze environment
+`DQN_for_Sunblaze_CartPole_(DRE),_openai_baseline` - ipython notebook file with agent in CartPole environment
 
 `Pong_game_play` - ipython notebook file with agent in Pong environment (uses trained agents)
 
@@ -19,7 +18,6 @@ ____________________________________________________________
 
 ## Prerequisites and References
 
-____________________________________________________________
 pip install --upgrade pip
 python3 -m venv openai_env
 source openai_env/bin/activate
